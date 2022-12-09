@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="theme_blue">#0099ff</color>
+<!--    <color name="theme_blue">#684C41</color>-->
+
+<!--    <color name="color1">#34568B</color>-->
+<!--    <color name="color2">#FF6F61</color>-->
+<!--    <color name="color3">#6B5B95</color>-->
+<!--    <color name="color4">#88B04B</color>-->
+<!--    <color name="color5">#009B77</color>-->
+<!--    <color name="color6">#955251</color>-->
+<!--    <color name="color7">#D65076</color>-->
+<!--    <color name="color8">#45B8AC</color>-->
+<!--    <color name="color9">#5B5EA6</color>-->
+<!--    <color name="color10">#BC243C</color>-->
+<!--    <color name="color11">#C3447A</color>-->
+<!--    <color name="color12">#363945</color>    -->
+
+    <color name="color1">#cdc9c3</color>
+    <color name="color2">#c6ebc9</color>
+    <color name="color3">#cfffa5</color>
+    <color name="color4">#a7c5eb</color>
+    <color name="color5">#f3e6e3</color>
+    <color name="color6">#efbbcf</color>
+    <color name="color7">#d6b0b1</color>
+    <color name="color8">#ccf6c8</color>
+    <color name="color9">#ffe0ac</color>
+    <color name="color10">#e5cfe5</color>
+    <color name="color11">#F3D8E4</color>
+    <color name="color12">#CCD5FB</color>
+
+    <color name="blue_light">#F2F4F5</color>
+
+<!--    <color name="gray" >#cdc9c3</color>-->
+<!--    <color name="green" >#c6ebc9</color>-->
+<!--    <color name="lightgreen" >#cfffa5</color>-->
+<!--    <color name="skyblue" >#a7c5eb</color>-->
+<!--    <color name="pink" >#f3e6e3</color>-->
+<!--    <color name="color1" >#efbbcf</color>-->
+<!--    <color name="color2" >#d6b0b1</color>-->
+<!--    <color name="color3" >#ccf6c8</color>-->
+<!--    <color name="color4" >#ffe0ac</color>-->
+<!--    <color name="color5" >#e5cfe5</color>-->
+</resources>

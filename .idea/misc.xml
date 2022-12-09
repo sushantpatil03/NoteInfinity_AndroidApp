@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Programming/ProjectNotesApp/app/src/main/res/drawable-v24/email_24.xml" value="0.1745" />
+        <entry key="..\:/Android Programming/ProjectNotesApp/app/src/main/res/drawable-v24/round_bg.xml" value="0.1745" />
+        <entry key="..\:/Android Programming/ProjectNotesApp/app/src/main/res/drawable-v24/round_border.xml" value="0.1745" />
+        <entry key="..\:/Android Programming/ProjectNotesApp/app/src/main/res/drawable/ic_baseline_add_circle_24.xml" value="0.1745" />
+        <entry key="..\:/Android Programming/ProjectNotesApp/app/src/main/res/drawable/ic_heart.xml" value="0.165" />
+        <entry key="..\:/Android Programming/ProjectNotesApp/app/src/main/res/drawable/ic_home.xml" value="0.165" />
+        <entry key="..\:/Android Programming/ProjectNotesApp/app/src/main/res/drawable/ic_menu_burger.xml" value="0.1745" />
+        <entry key="..\:/Android Programming/ProjectNotesApp/app/src/main/res/drawable/plus_icon_white.xml" value="0.1745" />
+        <entry key="..\:/Android Programming/ProjectNotesApp/app/src/main/res/drawable/save_icon.xml" value="0.1745" />
+        <entry key="..\:/Android Programming/ProjectNotesApp/app/src/main/res/layout/activity_about_developer.xml" value="0.23229166666666667" />
+        <entry key="..\:/Android Programming/ProjectNotesApp/app/src/main/res/layout/activity_customize.xml" value="0.23229166666666667" />
+        <entry key="..\:/Android Programming/ProjectNotesApp/app/src/main/res/layout/activity_edit_note.xml" value="0.23229166666666667" />
+        <entry key="..\:/Android Programming/ProjectNotesApp/app/src/main/res/layout/activity_forgot_password.xml" value="0.23229166666666667" />
+        <entry key="..\:/Android Programming/ProjectNotesApp/app/src/main/res/layout/activity_main.xml" value="0.21822916666666667" />
+        <entry key="..\:/Android Programming/ProjectNotesApp/app/src/main/res/layout/activity_new_note.xml" value="0.23229166666666667" />
+        <entry key="..\:/Android Programming/ProjectNotesApp/app/src/main/res/layout/activity_notes.xml" value="0.23229166666666667" />
+        <entry key="..\:/Android Programming/ProjectNotesApp/app/src/main/res/layout/activity_sign_up.xml" value="0.2" />
+        <entry key="..\:/Android Programming/ProjectNotesApp/app/src/main/res/layout/activity_view_note.xml" value="0.23229166666666667" />
+        <entry key="..\:/Android Programming/ProjectNotesApp/app/src/main/res/layout/headerfile.xml" value="0.23229166666666667" />
+        <entry key="..\:/Android Programming/ProjectNotesApp/app/src/main/res/layout/notes_layout.xml" value="0.23229166666666667" />
+        <entry key="..\:/Android Programming/ProjectNotesApp/app/src/main/res/layout/toolbar_main.xml" value="0.23229166666666667" />
+        <entry key="..\:/Android Programming/ProjectNotesApp/app/src/main/res/menu/sidemenu.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

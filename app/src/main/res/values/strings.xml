@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Note Infinity</string>
+    <string name="OpenDrawer">Open Drawer</string>
+    <string name="CloseDrawer">Close Drawer</string>
+    <string name="lorem30">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa assumenda dignissimos dicta eos eveniet esse ipsum doloribus hic sint quae repellat tempora facilis fuga animi debitis, maiores deleniti consectetur totam!</string>
+    <array name="banks">
+        <item>Newest first</item>
+        <item>Oldest first</item>
+        <item>A-Z</item>
+        <item>Z-A</item>
+    </array>
+</resources>

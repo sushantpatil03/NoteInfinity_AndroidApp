@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewNoteActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/viewNoteToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <EditText
+            android:id="@+id/vnTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Enter the note title here"
+            android:paddingTop="10dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <EditText
+        android:id="@+id/vnContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/viewNoteToolbar"
+        android:background="#FAF7f7"
+        android:gravity="top|left"
+        android:hint="Enter the note content here"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:overScrollMode="always"
+        android:scrollbarStyle="insideInset"
+        android:scrollbars="vertical"
+
+        android:textSize="15sp" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/view_note_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="@color/theme_blue"
+        android:src="@drawable/pencil"
+        app:maxImageSize="24dp"
+        app:tint="@null" />
+
+
+</RelativeLayout>

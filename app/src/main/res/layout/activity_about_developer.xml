@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutDeveloper">
+
+
+    <View
+        android:id="@+id/topView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/theme_blue" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/topView"
+        android:background="@drawable/wave_blue_top"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:text="NOTE INFINITY"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"/>
+
+    <RelativeLayout
+        android:id="@+id/centerLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/aboutDeveloperText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About The Developer"
+            android:textSize="35sp"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Log In to Continue"-->
+<!--            android:textSize="20sp"-->
+<!--            android:fontFamily="@font/poppins_medium"-->
+<!--            android:textColor="@color/white"/>-->
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/aboutDeveloperContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/aboutDeveloperText"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="73dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Just some Random Text"
+        android:textSize="15sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="goBack"
+        android:layout_below="@id/aboutDeveloperContent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppins_medium"
+        android:paddingHorizontal="15sp"
+        android:background="@drawable/round_bg"
+        android:textColor="@color/white"
+        android:text="Home"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Join us With"
+        android:layout_above="@id/icons"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="15sp"/>
+
+    <LinearLayout
+        android:id="@+id/icons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp">
+
+        <ImageButton
+            android:layout_marginLeft="13dp"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/gmail"
+            android:onClick="gmail"
+            />
+        <ImageButton
+            android:layout_marginLeft="13dp"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:background="@drawable/yt"
+            android:onClick="yt"
+            />
+        <ImageButton
+            android:layout_marginLeft="13dp"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:background="@drawable/ig"
+            android:onClick="ig"
+            />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="13dp"
+            android:background="@drawable/whats"
+            android:onClick="whatsapp" />
+
+        <ImageButton
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:background="@drawable/fb"
+            android:onClick="fb"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Made with ❤️ in India"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="3dp"
+        android:fontFamily="@font/poppins_medium"/>
+
+
+
+</RelativeLayout>

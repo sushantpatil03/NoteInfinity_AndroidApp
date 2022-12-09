@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<!--    <item-->
+<!--        android:id="@+id/homeMenu"-->
+<!--        android:icon="@drawable/ic_home"-->
+<!--        android:title="Home" />-->
+
+    <item
+        android:id="@+id/homeMenu"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/reportBug"
+        android:icon="@drawable/ic_bugnew"
+        android:title="Report a Bug" />
+    <item
+        android:id="@+id/aboutUs"
+        android:icon="@drawable/ic_heart"
+        android:title="About the Developer" />
+    <item
+        android:id="@+id/customize"
+        android:icon="@drawable/ic_customize"
+        android:title="Customize the App" />
+    <item
+        android:id="@+id/ourApps"
+        android:icon="@drawable/ic_world"
+        android:title="Other Apps" />
+    <item
+        android:id="@+id/logOut"
+        android:icon="@drawable/ic_lock"
+        android:title="Log Out" />
+
+</menu>

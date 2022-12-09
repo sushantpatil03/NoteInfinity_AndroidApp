@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayoutForCustomize"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomizeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <include
+            android:id="@+id/customizeToolbar"
+            layout="@layout/toolbar_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+        <RelativeLayout
+            android:id="@+id/rlSortBy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/customizeToolbar"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="50dp">
+
+            <TextView
+                android:id="@+id/textOfSortBy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="23dp"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Sort By:"
+                android:textSize="20sp" />
+
+            <Spinner
+                android:id="@+id/sortBySpinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/textOfSortBy"
+                android:layout_marginLeft="50dp"
+                android:layout_toRightOf="@id/textOfSortBy"
+                android:entries="@array/banks" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlSizeOfNote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rlSortBy"
+            android:layout_marginHorizontal="15dp"
+            android:layout_marginTop="35dp">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="23dp"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Size of note:"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textViewForSizeOfNote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/textView2"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/textView2"
+                android:fontFamily="@font/poppins_medium"
+                android:text="Normal"
+                android:textSize="20sp" />
+
+            <SeekBar
+                android:id="@+id/seekBarForSizeOfNote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView2"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp"
+                android:max="5"
+                android:min="1"
+                android:progress="3" />
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:textSize="20sp"-->
+<!--                android:text="Preview -"-->
+<!--                android:layout_below="@id/seekBarForSizeOfNote"-->
+<!--                android:layout_marginLeft="23dp"-->
+<!--                android:fontFamily="@font/poppins_medium"-->
+<!--                android:layout_marginTop="20dp"/>-->
+        </RelativeLayout>
+        <include layout="@layout/notes_layout"
+            android:id="@+id/notePreview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rlSizeOfNote"
+            android:layout_marginHorizontal="80dp"
+            android:layout_marginTop="30dp"
+            />
+    </RelativeLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigationViewOfCustomize"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/headerfile"
+        app:menu="@menu/sidemenu" />
+</androidx.drawerlayout.widget.DrawerLayout>
